@@ -16,27 +16,27 @@
 
 - CI pipelines (builds/tests) usually run here frequently.
 
-3. feature/<feature-name>
+##  feature/<feature-name>
    One branch per feature or task.
 
-Branch off from dev.
+- Branch off from dev.
 
-Example: feature/login-page, feature/payment-integration.
+- Example: feature/login-page, feature/payment-integration.
 
-4. bugfix/<bug-name> (Optional)
-   For fixing bugs in the dev branch before release.
+## bugfix/<bug-name> (Optional)
+- For fixing bugs in the dev branch before release.
 
-Merged back into dev.
+- Merged back into dev.
 
-5. hotfix/<issue-name> (Urgent production fixes)
-   Used when a bug needs to be fixed immediately in production (main).
+## hotfix/<issue-name> (Urgent production fixes)
+- Used when a bug needs to be fixed immediately in production (main).
 
-Branch off from main, then merged into both main and dev.
+- Branch off from main, then merged into both main and dev.
 
-6. release/<version> (Optional, if doing versioned releases)
-   Used to prepare code for release.
+## release/<version> (Optional, if doing versioned releases)
+- Used to prepare code for release.
 
-Allows last-minute testing, versioning, tagging.
+- Allows last-minute testing, versioning, tagging.
 
 main
 │
