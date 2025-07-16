@@ -1,4 +1,4 @@
-import { dummyData as data } from "../dummyData.js";
+import { dummyData as data } from "../../dummyData.js";
 import { createProduct } from "./productModel.js";
 import { getVariableByName, setVariable } from "./variableModel.js";
 export const dbSeeding = async () => {

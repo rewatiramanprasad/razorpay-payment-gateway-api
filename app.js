@@ -1,11 +1,11 @@
 import dotenv from "dotenv";
 import express from "express";
 import Razorpay from "razorpay";
-import { dbSeeding } from "./db/seeding.js";
+import { dbSeeding } from "./src/db/seeding.js";
 
-const app = express();
+export const app = express();
 
-import { paymentRouter } from "./route.js";
+import { paymentRouter } from "./src/route.js";
 
 dotenv.config({ path: "./config.env" });
 dbSeeding();

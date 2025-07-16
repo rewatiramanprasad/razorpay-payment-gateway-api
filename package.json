@@ -4,8 +4,9 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "jest",
 		"dev": "nodemon app.js",
+		"start": " node app.js",
 		"biome:lint": "biome lint .",
 		"biome:format": "biome format . --write",
 		"biome:check": "biome check .",
@@ -24,6 +25,10 @@
 		"sqlite3": "^5.1.7"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.0.6"
+		"@babel/preset-env": "^7.28.0",
+		"@biomejs/biome": "2.0.6",
+		"babel-jest": "^30.0.4",
+		"jest": "^30.0.4",
+		"supertest": "^7.1.3"
 	}
 }

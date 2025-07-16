@@ -1,4 +1,4 @@
-import { instance } from "./app.js";
+import { instance } from "../app.js";
 import { getProduct, getProductById } from "./db/productModel.js";
 
 export const payment = async (req, res) => {
