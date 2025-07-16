@@ -38,7 +38,7 @@ jobs:
     #   continue-on-error: true  # Lint failure won't stop the pipeline
 
     - name: Run tests
-      run: npm test
+      run: npm run test
 
     - name: Build project (optional)
       run: npm run build
