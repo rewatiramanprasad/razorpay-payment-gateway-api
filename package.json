@@ -4,9 +4,9 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"test": "jest",
-		"dev": "nodemon app.js",
-		"start": " node app.js",
+		"test": "jest --detectOpenHandles --forceExit", 
+		"dev": "nodemon server.js",
+		"start": " node server.js",
 		"biome:lint": "biome lint .",
 		"biome:format": "biome format . --write",
 		"biome:check": "biome check .",
