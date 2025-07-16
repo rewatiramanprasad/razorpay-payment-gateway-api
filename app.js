@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 import express from "express";
 import Razorpay from "razorpay";
 import { dbSeeding } from "./src/db/seeding.js";
+
 dotenv.config({ path: "./config.env" });
 export const app = express();
 

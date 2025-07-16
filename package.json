@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"test": "jest --detectOpenHandles --forceExit", 
+		"test": "jest --detectOpenHandles --forceExit",
 		"dev": "nodemon server.js",
 		"start": " node server.js",
 		"biome:lint": "biome lint .",
