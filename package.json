@@ -5,8 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"test": "jest --detectOpenHandles --forceExit",
-		"dev": "nodemon server.js",
-		"start": " node server.js",
+		"dev": " set NODE_ENV=local && nodemon server.js",
+		"start": " set NODE_ENV=local && node server.js",
 		"biome:lint": "biome lint .",
 		"biome:format": "biome format . --write",
 		"biome:check": "biome check .",
