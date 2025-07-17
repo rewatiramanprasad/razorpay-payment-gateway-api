@@ -5,6 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"test": " set RAZORPAY_KEY_ID=rzp_test_gWbsZm3E80DgMc RAZORPAY_KEY_SECRET=hczS9Z9liaA3ycw3d4slJ9Nb jest --detectOpenHandles --forceExit",
+		"test:local": " set NODE_ENV=local && jest --detectOpenHandles",
 		"dev": " set NODE_ENV=local && nodemon server.js",
 		"start": " set NODE_ENV=local && node server.js",
 		"biome:lint": "biome lint .",

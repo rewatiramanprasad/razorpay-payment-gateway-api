@@ -31,7 +31,6 @@ export const getKey = async (req, res) => {
 export const getProductDetails = async (req, res) => {
 	try {
 		const products = await getProduct();
-		console.log(products);
 
 		res.status(200).json({
 			data: products,

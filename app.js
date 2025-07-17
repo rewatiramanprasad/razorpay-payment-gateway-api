@@ -4,10 +4,9 @@ import Razorpay from "razorpay";
 import { dbSeeding } from "./src/db/seeding.js";
 import { paymentRouter } from "./src/route.js";
 
-console.log(process.env.NODE_ENV);
-
-if (process.env.NODE_ENV !== "local") {
-	dotenv.config(); //{ path: "./config.env" }
+if (process.env.NODE_ENV === "local ") {
+	console.log("Loading environment variables from config.env");
+	dotenv.config({ path: "./config.env" }); //{ path: "./config.env" }
 }
 export const app = express();
 
