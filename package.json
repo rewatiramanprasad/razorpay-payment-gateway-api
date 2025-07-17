@@ -10,7 +10,8 @@
 		"biome:lint": "biome lint .",
 		"biome:format": "biome format . --write",
 		"biome:check": "biome check .",
-		"biome:check:apply": "biome check . --apply"
+		"biome:check:apply": "biome check . --apply",
+		"build": "echo 'No build needed for Node.js with plain JavaScript.'"
 	},
 	"keywords": [],
 	"author": "",
