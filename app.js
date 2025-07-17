@@ -3,6 +3,7 @@ import express from "express";
 import Razorpay from "razorpay";
 import { dbSeeding } from "./src/db/seeding.js";
 import { paymentRouter } from "./src/route.js";
+
 console.log(process.env.NODE_ENV);
 
 if (process.env.NODE_ENV !== "local") {
