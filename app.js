@@ -7,7 +7,6 @@ import { paymentRouter } from "./src/route.js";
 dotenv.config({ path: "./config.env" });
 export const app = express();
 
-
 dbSeeding();
 
 app.use(express.json());
