@@ -7,7 +7,7 @@ import { paymentRouter } from "./src/route.js";
 console.log(process.env.NODE_ENV);
 
 if (process.env.NODE_ENV !== "local") {
-	dotenv.config({ path: "./config.env" });
+	dotenv.config(); //{ path: "./config.env" }
 }
 export const app = express();
 
